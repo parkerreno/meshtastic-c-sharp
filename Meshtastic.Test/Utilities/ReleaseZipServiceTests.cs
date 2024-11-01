@@ -3,6 +3,7 @@ using Meshtastic.Protobufs;
 
 namespace Meshtastic.Test.Utilities
 {
+    [Ignore("The Meshtastic.org API needs to be updated now that multiple firmware zip files are in a release (as of 2.5.5).")]
     [TestFixture]
     public class ReleaseZipServiceTests
     {
